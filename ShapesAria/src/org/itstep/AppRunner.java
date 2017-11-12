@@ -6,7 +6,7 @@ import org.itstep.model.impl.Triangle;
 
 public class AppRunner{
 
-	public static <Cirgle> void main(String[] args) {
+	public static  void main(String[] args) {
 		Circle circle = new Circle();
 		circle.setRadius(20);
 		circle.printArea();

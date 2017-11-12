@@ -3,16 +3,16 @@ package org.itstep.model.impl;
 import org.itstep.model.Shape;
 
 public class Square implements Shape {
-	private int square;
+	private int side;
 
 	@Override
 	public void printArea() {
 		
-	System.out.println("Area of this square is)" + Math.PI * square * square);
+	System.out.println("Area of this square is "  + side * side);
 		}
 
 	public int getSquare() {
-		return square;
+		return side;
 	}
 	
 	public void setSquare(int square) {
