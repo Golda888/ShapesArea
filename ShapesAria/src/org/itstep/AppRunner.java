@@ -1,16 +1,31 @@
 package org.itstep;
 
 import org.itstep.model.impl.Circle;
+import org.itstep.model.impl.Triangle;
 
-public class AppRunner {
+public class AppRunner{
 
-	public static void main(String[] args) {
+	public static <Cirgle> void main(String[] args) {
 		Circle circle = new Circle();
 		circle.setRadius(20);
 		circle.printArea();
 		Circle circle2 = new Circle();
 		circle2.setRadius(15);
 		circle2.printArea();
+		Triangle triangle = new Triangle();
+		triangle. setHeight(40);
+		triangle.printArea();
+		
+
+
+
+		
+		
+		
+	}
+		
+		
+
 
 	}
-}
+
