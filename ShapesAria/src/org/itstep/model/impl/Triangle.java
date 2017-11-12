@@ -19,7 +19,7 @@ System.out.println("Area of this trianle is)" + Math.PI * height * height);
 	public void setHeight(int height) {
 	this.height = height;
 	
-		// TODO Auto-generated method stub
+		
 		
 	}
 	
