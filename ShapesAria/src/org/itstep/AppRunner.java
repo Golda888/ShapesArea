@@ -1,6 +1,7 @@
 package org.itstep;
 
 import org.itstep.model.impl.Circle;
+import org.itstep.model.impl.Square;
 import org.itstep.model.impl.Triangle;
 
 public class AppRunner{
@@ -15,6 +16,10 @@ public class AppRunner{
 		Triangle triangle = new Triangle();
 		triangle. setHeight(40);
 		triangle.printArea();
+		Square square = new Square();
+		square.setSquare(55);
+		square.printArea();
+		
 		
 
 
